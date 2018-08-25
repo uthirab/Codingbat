@@ -20,3 +20,32 @@ def diff21(n):
 def parrot_trouble(talking, hour):
   return(talking and (hour<7 or hour>20))
 #6
+def makes10(a, b):
+  return(((a+b)==10) or (a==10 or b ==10))
+#7
+def near_hundred(n):
+  return((n>89 and n<111) or (n>189 and n<211))
+#8
+def pos_neg(a, b, negative):
+  return((a<0 and b>0 and negative== False) or (a>0 and b<0 and negative== False)  or (a<0 and b<0 and negative==True))
+#9
+def not_string(str):
+  strt=str.split(' ')
+  if 'not' in strt[0]:
+    return str
+  else:
+    return 'not '+str
+#10  
+  
+
+
+
+
+
+
+
+
+
+
+
+
