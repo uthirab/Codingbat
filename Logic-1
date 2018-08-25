@@ -1,2 +1,23 @@
+#1
 def cigar_party(cigars, is_weekend):
   return((cigars<61 and cigars>39) or (cigars>39 and is_weekend==True))
+#2
+def date_fashion(you, date):
+  if (you>7 or date>7) and (you >3 and date >3):
+    return(2)
+  elif you<3 or date<3:
+    return(0)
+  else:
+    return 1
+#6
+def alarm_clock(day, vacation):
+  if day==0 or day==6 or vacation==True:
+    if (day==0 or day==6) and vacation==True:
+      return ('off')
+    return ('10:00')
+  return('7:00')
+#9 
+def near_ten(num):
+  if num%10 <3 or num%10>7:
+    return True
+  return False
